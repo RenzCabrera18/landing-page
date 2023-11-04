@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+    <script src="my.js"></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Ferrari Cars</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Cars</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="btn">Reservation</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle" id="sub">HELLO! THIS IS</p>
+          <h1 class="title" id="ttle">
+            Ferrari <span>Luxury<br />Car</span> Dealer
+          </h1>
+          <!--this is the discription for the company-->
+          <p class="description" id="desc">
+            Ferrari N.V. is an Italian sports car manufacturer based in
+            Maranello. Founded by Enzo Ferrari in 1939 as Auto Avio
+            Costruzioni<span id="tuldok">...</span
+            ><span id="more"
+              >the company built its first car in 1940. However the company’s
+              inception as an auto manufacturer is usually recognized in 1947,
+              when the first Ferrari-badged car was completed. Ferrari is the
+              world’s most powerful brand according to Brand Finance. In May
+              2012 the 1962 Ferrari 250 GTO became the most expensive car in
+              history, selling in a private transaction for US$38.1 million to
+              American communications magnate Craig McCaw.</span
+            >
+          </p>
+          <!--This is description for the owner-->
+          <p class="subtitle" id="sub-t">THE OWNER OF THE COMPANY</p>
+          <h1 class="title" id="owner">Enzo <span>Ferrari</span></h1>
+          <p class="description" id="info">
+            Enzo Anselmo Ferrari was born in Modena on February 18, 1898. An
+            entrepreneur, engineer and Italian racing driver, in 1947 in
+            Maranello he founded a car company naming it “Ferrari”, giving way
+            to a story that would make Ferrari the most successful Formula 1
+            team and most famous car company ever.
+          </p>
+          <div class="action__btns">
+            <button class="read" id="read" onclick="read()">Read More</button>
+            <button class="next" id="next" onclick="next()">Next page</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="car.jpg" alt="profile" id="prvs-img" />
+          <img src="Enzo.jpg" alt="profile" id="nxt-img" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
